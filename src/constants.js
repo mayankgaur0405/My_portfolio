@@ -163,7 +163,7 @@ export const education = [
 
 // import livestreamLogo from "../assets/work_logo/livestreamLogo.png";
 // import videocallLogo from "../assets/work_logo/videocallLogo.png";
-// import trustytours from "../assets/work_logo/trustytoursLogo.png";
+// import swasthyasetu from "../assets/work_logo/swasthyasetuLogo.png";
 // import leetmetricsLogo from "../assets/work_logo/leetmetricsLogo.png";
 // import jobportalLogo from "../assets/work_logo/jobportalLogo.png";
 // import githubdetectiveLogo from "../assets/work_logo/githubLogo.png";
@@ -174,13 +174,13 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Trusty Tours",
+    title: "Swasthya-Setu",
     description:
-      "A MERN-based platform to connect verified tourist guides with travelers based on location, time, and language preferences. Features include guide verification, reviews, maps, and fraud prevention.",
-    // img: trustytours,
+      "A MERN-based platform to bridge the rural-urban healthcare gap by enabling teleconsultations, e-prescriptions, and health record management for underserved communities.",
+    // img: Swasthya-setu,
     tags: ["React JS", "Node.js", "Express", "MongoDB", "Maps API"],
-    github: "https://github.com/mayankgaur0405/trusty-tours",
-    webapp: "https://trustytours.vercel.app/",
+    github: "https://github.com/mayankgaur0405/Swasthya-Setu",
+    webapp: "https://Swasthya-Setu.vercel.app/",
   },
   {
     id: 1,
