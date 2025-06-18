@@ -41,7 +41,7 @@ const About = () => {
             With a CGPA of 8.27 at GL Bajaj and 550+ LeetCode problems solved, I love crafting efficient solutions
             and mentoring peers in data structures, algorithms, and system design. My projects like
             <span className="text-white font-semibold"> IntervueX</span> and
-            <span className="text-white font-semibold"> Trusty Tours</span> reflect my technical depth,
+            <span className="text-white font-semibold"> Swasthya-Setu</span> reflect my technical depth,
             leadership, and drive for real-world impact.
           </p>
 
