@@ -184,36 +184,16 @@ export const projects = [
   },
   {
     id: 1,
-    title: "Chat Application",
+    title: "Swasthya-Setu Pro",
     description:
-      "A real-time MERN chat app with user authentication, online status, chat history, and live messaging using WebSockets.",
-    // image: chatapplicationLogo,
-    tags: ["React JS", "Node.js", "Express", "MongoDB", "Socket.IO"],
-    github: "https://github.com/mayankgaur0405/chat-app",
-    webapp: "https://chatwithmayank.vercel.app/",
+      "A full-stack AI healthcare platform featuring a real-time medical voice agent. Built with Next.js, React, TypeScript, AssemblyAI, Clerk, and NeonDB to enable voice-based symptom analysis, secure authentication, and health record management — transforming rural and urban telemedicine.",
+    // img: SwasthyaSetuProImg,
+    tags: ["Next.js", "React", "TypeScript", "AssemblyAI", "Clerk", "NeonDB"],
+    github: "https://github.com/mayankgaur0405/Swasthya-Setu-Pro",
+    webapp: "https://swasthya-setu-pro.vercel.app/",
   },
   {
     id: 2,
-    title: "LeetCode Metrics Dashboard",
-    description:
-      "Fetches and displays detailed analytics of any LeetCode user including total problems solved, language usage, and contest ranking. Built using MERN stack with LeetCode GraphQL scraping.",
-    // image: leetmetricsLogo,
-    tags: ["React JS", "Node.js", "Express", "MongoDB", "GraphQL", "Scraping"],
-    github: "https://github.com/mayankgaur0405/leetcode-metrics",
-    webapp: "https://leetcode-metrics.vercel.app/",
-  },
-  {
-    id: 3,
-    title: "GitHub ID Detective",
-    description:
-      "Find detailed GitHub user information including public repos, followers, contributions, and highlights. Built using GitHub API and React.",
-    // image: githubdetectiveLogo,
-    tags: ["React JS", "GitHub API", "JavaScript", "CSS"],
-    github: "https://github.com/mayankgaur0405/github-id-detective",
-    webapp: "https://githubiddetective.vercel.app/",
-  },
-  {
-    id: 4,
     title: "AI-Powered Mock Interview Platform",
     description:
       "MERN-based website where users can take mock interviews with AI, get evaluated responses, and receive feedback and tips. Uses OpenAI API for question generation and scoring.",
@@ -223,27 +203,7 @@ export const projects = [
     webapp: "https://eduxdevs.vercel.app/",
   },
   {
-    id: 5,
-    title: "Video Calling Website",
-    description:
-      "A real-time video calling platform built using ZegoCloud SDK, allowing users to join or create rooms, and communicate through webcam and microphone.",
-    // image: videocallLogo,
-    tags: ["React JS", "ZegoCloud", "WebRTC", "Node.js"],
-    github: "https://github.com/mayankgaur0405/ZegoCloud-video-calling-app",
-    webapp: "https://videochat-mayank.vercel.app/",
-  },
-  {
-    id: 6,
-    title: "Video Streaming Website",
-    description:
-      "A Netflix-style MERN video streaming site where users can register, upload videos, and stream them in high quality. Admin panel for content management.",
-    // image: livestreamLogo,
-    tags: ["React JS", "Node.js", "Express", "MongoDB", "Cloudinary"],
-    github: "https://github.com/mayankgaur0405/video-streaming-app",
-    webapp: "https://mayankflix.vercel.app/",
-  },
-  {
-    id: 7,
+    id: 3,
     title: "Job Portal Website",
     description:
       "A MERN-based platform for job seekers and recruiters to connect. Features include job posting, resume upload, job search filters, and profile management.",
@@ -253,13 +213,53 @@ export const projects = [
     webapp: "https://jobconnect.vercel.app/",
   },
   {
-    id: 8,
-    title: "Gym Management System (Java Full-Stack)",
+    id: 4,
+    title: "Chat Application",
     description:
-      "A web application for managing gym members, plans, trainers, and attendance. Built using JSP, Servlets, JDBC, and MySQL with admin dashboard features.",
-    // image: gymLogo,
-    tags: ["Java", "JSP", "Servlet", "JDBC", "MySQL"],
-    github: "https://github.com/mayankgaur0405/gym-management-system",
-    webapp: "https://gymapp.hostingdemo.in/",
+      "A real-time MERN chat app with user authentication, online status, chat history, and live messaging using WebSockets.",
+    // image: chatapplicationLogo,
+    tags: ["React JS", "Node.js", "Express", "MongoDB", "Socket.IO"],
+    github: "https://github.com/mayankgaur0405/chat-app",
+    webapp: "https://chatwithmayank.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "LeetCode Metrics Dashboard",
+    description:
+      "Fetches and displays detailed analytics of any LeetCode user including total problems solved, language usage, and contest ranking. Built using MERN stack with LeetCode GraphQL scraping.",
+    // image: leetmetricsLogo,
+    tags: ["React JS", "Node.js", "Express", "MongoDB", "GraphQL", "Scraping"],
+    github: "https://github.com/mayankgaur0405/leetcode-metrics",
+    webapp: "https://leetcode-metrics.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "GitHub ID Detective",
+    description:
+      "Find detailed GitHub user information including public repos, followers, contributions, and highlights. Built using GitHub API and React.",
+    // image: githubdetectiveLogo,
+    tags: ["React JS", "GitHub API", "JavaScript", "CSS"],
+    github: "https://github.com/mayankgaur0405/github-id-detective",
+    webapp: "https://githubiddetective.vercel.app/",
+  },
+  {
+    id: 7,
+    title: "Video Calling Website",
+    description:
+      "A real-time video calling platform built using ZegoCloud SDK, allowing users to join or create rooms, and communicate through webcam and microphone.",
+    // image: videocallLogo,
+    tags: ["React JS", "ZegoCloud", "WebRTC", "Node.js"],
+    github: "https://github.com/mayankgaur0405/ZegoCloud-video-calling-app",
+    webapp: "https://videochat-mayank.vercel.app/",
+  },
+  {
+    id: 8,
+    title: "Video Streaming Website",
+    description:
+      "A Netflix-style MERN video streaming site where users can register, upload videos, and stream them in high quality. Admin panel for content management.",
+    // image: livestreamLogo,
+    tags: ["React JS", "Node.js", "Express", "MongoDB", "Cloudinary"],
+    github: "https://github.com/mayankgaur0405/video-streaming-app",
+    webapp: "https://mayankflix.vercel.app/",
   },
 ];
