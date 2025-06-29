@@ -22,9 +22,9 @@ const About = () => {
             <span className="text-white">I am a </span>
             <ReactTypingEffect
               text={[
-                'Java Backend Enthusiast',
                 'MERN Stack Developer',
                 'Problem Solver',
+                'Java Backend Enthusiast',
               ]}
               speed={100}
               eraseSpeed={50}
