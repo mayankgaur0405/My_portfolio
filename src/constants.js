@@ -42,15 +42,10 @@ import bsaLogo from "./assets/education_logo/bsa_logo.png";
 import vpsLogo from "./assets/education_logo/vps_logo.png";
 
 // Project Section Logo's
-// import githubdetLogo from './assets/work_logo/github_det.png';
-// import csprepLogo from './assets/work_logo/cs_prep.png';
-// import movierecLogo from './assets/work_logo/movie_rec.png';
-// import taskremLogo from './assets/work_logo/task_rem.png';
-// import npmLogo from './assets/work_logo/npm.png';
-// import webverLogo from './assets/work_logo/web_dig.png';
-// import cmLogo from './assets/work_logo/cm.png';
-// import imagesearchLogo from './assets/work_logo/image_search.png';
-// import removebgLogo from './assets/work_logo/remove_bg.png';
+import swasthyaSetu from './assets/work_logo/swasthyaSetuWebsite.png';
+import SwasthyaSetuProImg from './assets/work_logo/swasthyaSetuProWebsite.png';
+import IntervueX from './assets/work_logo/intervueX.png';
+
 
 export const SkillsInfo = [
   {
@@ -161,15 +156,7 @@ export const education = [
   },
 ];
 
-// import livestreamLogo from "../assets/work_logo/livestreamLogo.png";
-// import videocallLogo from "../assets/work_logo/videocallLogo.png";
-// import swasthyasetu from "../assets/work_logo/swasthyasetuLogo.png";
-// import leetmetricsLogo from "../assets/work_logo/leetmetricsLogo.png";
-// import jobportalLogo from "../assets/work_logo/jobportalLogo.png";
-// import githubdetectiveLogo from "../assets/work_logo/githubLogo.png";
-// import chatapplicationLogo from "../assets/work_logo/chatapplicationLogo.png";
-// import aimockinterviewLogo from "../assets/work_logo/aimockinterviewLogo.png";
-// import gymLogo from "../assets/work_logo/gymLogo.png";
+
 
 export const projects = [
   {
@@ -177,7 +164,7 @@ export const projects = [
     title: "Swasthya-Setu",
     description:
       "A MERN-based platform to bridge the rural-urban healthcare gap by enabling teleconsultations, e-prescriptions, and health record management for underserved communities.",
-    // img: Swasthya-setu,
+    img: swasthyaSetu,
     tags: ["React JS", "Node.js", "Express", "MongoDB", "Maps API"],
     github: "https://github.com/mayankgaur0405/Swasthya-Setu",
     webapp: "https://Swasthya-Setu.vercel.app/",
@@ -187,17 +174,17 @@ export const projects = [
     title: "Swasthya-Setu Pro",
     description:
       "A full-stack AI healthcare platform featuring a real-time medical voice agent. Built with Next.js, React, TypeScript, AssemblyAI, Clerk, and NeonDB to enable voice-based symptom analysis, secure authentication, and health record management — transforming rural and urban telemedicine.",
-    // img: SwasthyaSetuProImg,
+     img: SwasthyaSetuProImg,
     tags: ["Next.js", "React", "TypeScript", "AssemblyAI", "Clerk", "NeonDB"],
     github: "https://github.com/mayankgaur0405/Swasthya-Setu-Pro",
     webapp: "https://swasthya-setu-pro.vercel.app/",
   },
   {
     id: 2,
-    title: "AI-Powered Mock Interview Platform",
+    title: "IntervueX",
     description:
       "MERN-based website where users can take mock interviews with AI, get evaluated responses, and receive feedback and tips. Uses OpenAI API for question generation and scoring.",
-    // image: aimockinterviewLogo,
+     img: IntervueX,
     tags: ["React JS", "Node.js", "Express", "MongoDB", "OpenAI API"],
     github: "https://github.com/mayankgaur0405/IntervueX",
     webapp: "https://intervue-x.vercel.app/",
