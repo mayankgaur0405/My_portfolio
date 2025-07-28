@@ -184,7 +184,7 @@ export const projects = [
     img: TalkTownImg,
     tags: ["React", "Node.js", "Express", "Socket.io", "Zustand"],
     github: "https://github.com/mayankgaur0405/TalkTown",
-    webapp: "https://talktown.vercel.app/",
+    webapp: "https://talktown-8lif.onrender.com/",
   },
   {
     id: 3,
