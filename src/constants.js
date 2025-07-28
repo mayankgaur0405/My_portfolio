@@ -42,10 +42,10 @@ import bsaLogo from "./assets/education_logo/bsa_logo.png";
 import vpsLogo from "./assets/education_logo/vps_logo.png";
 
 // Project Section Logo's
-import swasthyaSetu from './assets/work_logo/swasthyaSetuWebsite.png';
-import SwasthyaSetuProImg from './assets/work_logo/swasthyaSetuProWebsite.png';
-import IntervueX from './assets/work_logo/intervueX.png';
-
+import swasthyaSetu from "./assets/work_logo/swasthyaSetuWebsite.png";
+import SwasthyaSetuProImg from "./assets/work_logo/swasthyaSetuProWebsite.png";
+import IntervueX from "./assets/work_logo/intervueX.png";
+import TalkTownImg from "./assets/work_logo/TalkTownImg.png";
 
 export const SkillsInfo = [
   {
@@ -59,7 +59,7 @@ export const SkillsInfo = [
       // { name: 'Angular', logo: angularLogo },
       { name: "Redux", logo: reduxLogo },
       // { name: 'Next JS', logo: nextjsLogo },
-      // { name: 'Tailwind CSS', logo: tailwindcssLogo },
+      { name: 'Tailwind CSS', logo: tailwindcssLogo },
       // { name: 'GSAP', logo: gsapLogo },
       // { name: 'Material UI', logo: materialuiLogo },
       { name: "Bootstrap", logo: bootstrapLogo },
@@ -105,25 +105,24 @@ export const SkillsInfo = [
 ];
 
 export const experiences = [
-    {
-  id: 0,
-  img: bharatIntern, // Replace with your imported logo variable
-  role: "Fullstack MERN Developer Intern",
-  company: "Bharat Intern",
-  date: "September 2023",
-  desc: "Completed a hands-on internship as a Fullstack Developer, building end-to-end web applications using the MERN stack. Focused on creating responsive UIs with React.js and Tailwind CSS, developing backend APIs using Node.js and Express, and managing data with MongoDB. Delivered a fully functional project demonstrating CRUD operations, authentication, and seamless frontend-backend integration.",
-  skills: [
-    "MongoDB",
-    "Express.js",
-    "React.js",
-    "Node.js",
-    "Tailwind CSS",
-    "JavaScript",
-    "REST API",
-    "Git",
-  ],
-}
-
+  {
+    id: 0,
+    img: bharatIntern, // Replace with your imported logo variable
+    role: "Fullstack MERN Developer Intern",
+    company: "Bharat Intern",
+    date: "September 2023",
+    desc: "Completed a hands-on internship as a Fullstack Developer, building end-to-end web applications using the MERN stack. Focused on creating responsive UIs with React.js and Tailwind CSS, developing backend APIs using Node.js and Express, and managing data with MongoDB. Delivered a fully functional project demonstrating CRUD operations, authentication, and seamless frontend-backend integration.",
+    skills: [
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "Tailwind CSS",
+      "JavaScript",
+      "REST API",
+      "Git",
+    ],
+  },
 ];
 
 export const education = [
@@ -156,8 +155,6 @@ export const education = [
   },
 ];
 
-
-
 export const projects = [
   {
     id: 0,
@@ -174,79 +171,31 @@ export const projects = [
     title: "Swasthya-Setu Pro",
     description:
       "A full-stack AI healthcare platform featuring a real-time medical voice agent. Built with Next.js, React, TypeScript, AssemblyAI, Clerk, and NeonDB to enable voice-based symptom analysis, secure authentication, and health record management — transforming rural and urban telemedicine.",
-     img: SwasthyaSetuProImg,
+    img: SwasthyaSetuProImg,
     tags: ["Next.js", "React", "TypeScript", "AssemblyAI", "Clerk", "NeonDB"],
     github: "https://github.com/mayankgaur0405/Swasthya-Setu-Pro",
     webapp: "https://swasthya-setu-pro.vercel.app/",
   },
-  {
+   {
     id: 2,
+    title: "TalkTown",
+    description:
+      "A real-time chat application enabling seamless communication using WebSockets. Built with React, Node.js, Express, Socket.io, and Zustand — offering features like instant messaging, typing indicators, and room-based chats. Scalable and perfect for modern web conversations.",
+    img: TalkTownImg,
+    tags: ["React", "Node.js", "Express", "Socket.io", "Zustand"],
+    github: "https://github.com/mayankgaur0405/TalkTown",
+    webapp: "https://talktown.vercel.app/",
+  },
+  {
+    id: 3,
     title: "IntervueX",
     description:
       "MERN-based website where users can take mock interviews with AI, get evaluated responses, and receive feedback and tips. Uses OpenAI API for question generation and scoring.",
-     img: IntervueX,
+    img: IntervueX,
     tags: ["React JS", "Node.js", "Express", "MongoDB", "OpenAI API"],
     github: "https://github.com/mayankgaur0405/IntervueX",
     webapp: "https://intervue-x.vercel.app/",
   },
-  // {
-  //   id: 3,
-  //   title: "Job Portal Website",
-  //   description:
-  //     "A MERN-based platform for job seekers and recruiters to connect. Features include job posting, resume upload, job search filters, and profile management.",
-  //   // image: jobportalLogo,
-  //   tags: ["React JS", "Node.js", "MongoDB", "Express", "JWT"],
-  //   github: "https://github.com/mayankgaur0405/job-portal",
-  //   webapp: "https://jobconnect.vercel.app/",
-  // },
-  // {
-  //   id: 4,
-  //   title: "Chat Application",
-  //   description:
-  //     "A real-time MERN chat app with user authentication, online status, chat history, and live messaging using WebSockets.",
-  //   // image: chatapplicationLogo,
-  //   tags: ["React JS", "Node.js", "Express", "MongoDB", "Socket.IO"],
-  //   github: "https://github.com/mayankgaur0405/chat-app",
-  //   webapp: "https://chatwithmayank.vercel.app/",
-  // },
-  // {
-  //   id: 5,
-  //   title: "LeetCode Metrics Dashboard",
-  //   description:
-  //     "Fetches and displays detailed analytics of any LeetCode user including total problems solved, language usage, and contest ranking. Built using MERN stack with LeetCode GraphQL scraping.",
-  //   // image: leetmetricsLogo,
-  //   tags: ["React JS", "Node.js", "Express", "MongoDB", "GraphQL", "Scraping"],
-  //   github: "https://github.com/mayankgaur0405/leetcode-metrics",
-  //   webapp: "https://leetcode-metrics.vercel.app/",
-  // },
-  // {
-  //   id: 6,
-  //   title: "GitHub ID Detective",
-  //   description:
-  //     "Find detailed GitHub user information including public repos, followers, contributions, and highlights. Built using GitHub API and React.",
-  //   // image: githubdetectiveLogo,
-  //   tags: ["React JS", "GitHub API", "JavaScript", "CSS"],
-  //   github: "https://github.com/mayankgaur0405/github-id-detective",
-  //   webapp: "https://githubiddetective.vercel.app/",
-  // },
-  // {
-  //   id: 7,
-  //   title: "Video Calling Website",
-  //   description:
-  //     "A real-time video calling platform built using ZegoCloud SDK, allowing users to join or create rooms, and communicate through webcam and microphone.",
-  //   // image: videocallLogo,
-  //   tags: ["React JS", "ZegoCloud", "WebRTC", "Node.js"],
-  //   github: "https://github.com/mayankgaur0405/ZegoCloud-video-calling-app",
-  //   webapp: "https://videochat-mayank.vercel.app/",
-  // },
-  // {
-  //   id: 8,
-  //   title: "Video Streaming Website",
-  //   description:
-  //     "A Netflix-style MERN video streaming site where users can register, upload videos, and stream them in high quality. Admin panel for content management.",
-  //   // image: livestreamLogo,
-  //   tags: ["React JS", "Node.js", "Express", "MongoDB", "Cloudinary"],
-  //   github: "https://github.com/mayankgaur0405/video-streaming-app",
-  //   webapp: "https://mayankflix.vercel.app/",
-  // },
+ 
 ];
+
