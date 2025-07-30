@@ -186,27 +186,16 @@ export const projects = [
     github: "https://github.com/mayankgaur0405/TalkTown",
     webapp: "https://talktown-8lif.onrender.com/",
   },
-  {
-    id: 3,
-    title: "IntervueX",
-    description:
-      "MERN-based website where users can take mock interviews with AI, get evaluated responses, and receive feedback and tips. Uses OpenAI API for question generation and scoring.",
-    img: IntervueX,
-    tags: ["React JS", "Node.js", "Express", "MongoDB", "OpenAI API"],
-    github: "https://github.com/mayankgaur0405/IntervueX",
-    webapp: "https://intervue-x.vercel.app/",
-  },
-
-    {
-      id: 4,
-    title: "TalkTownds",
-    description:
-      "A real-time chat application enabling seamless communication using WebSockets. Built with React, Node.js, Express, Socket.io, and Zustand — offering features like instant messaging, typing indicators, and room-based chats. Scalable and perfect for modern web conversations.",
-    // img: TalkTownImg,
-    tags: ["React", "Node.js", "Express", "Socket.io", "Zustand"],
-    github: "https://github.com/mayankgaur0405/TalkTown",
-    webapp: "https://talktown-8lif.onrender.com/",
-  },
+  // {
+  //   id: 3,
+  //   title: "IntervueX",
+  //   description:
+  //     "MERN-based website where users can take mock interviews with AI, get evaluated responses, and receive feedback and tips. Uses OpenAI API for question generation and scoring.",
+  //   img: IntervueX,
+  //   tags: ["React JS", "Node.js", "Express", "MongoDB", "OpenAI API"],
+  //   github: "https://github.com/mayankgaur0405/IntervueX",
+  //   webapp: "https://intervue-x.vercel.app/",
+  // },
  
 ];
 
