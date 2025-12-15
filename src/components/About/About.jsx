@@ -37,7 +37,7 @@ const About = () => {
           </h3>
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
             I am a full-stack developer passionate about building scalable web apps using the Java and MERN stack.
-            With a CGPA of 8.27 at GL Bajaj and 550+ LeetCode problems solved, I love crafting efficient solutions
+            With a CGPA of 8.1 at GL Bajaj and 550+ LeetCode problems solved, I love crafting efficient solutions
             and mentoring peers in data structures, algorithms, and system design. My projects like
             <span className="text-white font-semibold"> Dev2Gether </span>,
             <span className="text-white font-semibold"> MG Virtual Line </span> and 
@@ -46,7 +46,7 @@ const About = () => {
           </p>
 
           <a
-            href="https://drive.google.com/file/d/1evz-IJj3o_hvULPoYrSshHOaGEIGSqHY/view?usp=sharing"
+            href="https://drive.google.com/file/d/1dUN8QockZ4KklUYNCH3-44RgPx7ZsCeS/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"

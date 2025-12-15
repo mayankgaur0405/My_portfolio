@@ -238,7 +238,7 @@ export const projects = [
       "Authentication",
     ],
     github: "https://github.com/mayankgaur0405/MG-Virtual-Line.git",
-    webapp: "https://mg-virtual-line.vercel.app/",
+    webapp: "https://mg-virtual-line-h9jc.onrender.com/",
   },
   {
     id: 2,
