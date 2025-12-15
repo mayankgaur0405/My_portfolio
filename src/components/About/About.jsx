@@ -39,14 +39,14 @@ const About = () => {
             I am a full-stack developer passionate about building scalable web apps using the Java and MERN stack.
             With a CGPA of 8.27 at GL Bajaj and 550+ LeetCode problems solved, I love crafting efficient solutions
             and mentoring peers in data structures, algorithms, and system design. My projects like
-            <span className="text-white font-semibold"> Swasthya-Setu</span>,
-            <span className="text-white font-semibold"> Swasthya-Setu Pro</span> and 
-             <span className="text-white font-semibold"> IntervueX</span>  reflect my technical depth,
+            <span className="text-white font-semibold"> Dev2Gether </span>,
+            <span className="text-white font-semibold"> MG Virtual Line </span> and 
+             <span className="text-white font-semibold"> GL PeerBajaj </span>  reflect my technical depth,
             leadership, and drive for real-world impact.
           </p>
 
           <a
-            href="https://drive.google.com/file/d/1qHKrM6vrrXi12dV-K_WilUOQPRjWPfMD/view?usp=sharing"
+            href="https://drive.google.com/file/d/1evz-IJj3o_hvULPoYrSshHOaGEIGSqHY/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"

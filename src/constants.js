@@ -49,69 +49,121 @@ import TalkTownImg from "./assets/work_logo/TalkTownImg.png";
 
 export const SkillsInfo = [
   {
-    title: "Frontend",
-    skills: [
-      { name: "HTML", logo: htmlLogo },
-      { name: "CSS", logo: cssLogo },
-      // { name: 'SASS', logo: sassLogo },
-      { name: "JavaScript", logo: javascriptLogo },
-      { name: "React JS", logo: reactjsLogo },
-      // { name: 'Angular', logo: angularLogo },
-      { name: "Redux", logo: reduxLogo },
-      // { name: 'Next JS', logo: nextjsLogo },
-      { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      // { name: 'GSAP', logo: gsapLogo },
-      // { name: 'Material UI', logo: materialuiLogo },
-      { name: "Bootstrap", logo: bootstrapLogo },
-    ],
-  },
-  {
-    title: "Backend",
-    skills: [
-      { name: "Springboot", logo: springbootLogo },
-      { name: "Node JS", logo: nodejsLogo },
-      { name: "Express JS", logo: expressjsLogo },
-      { name: "MySQL", logo: mysqlLogo },
-      { name: "MongoDB", logo: mongodbLogo },
-      // { name: 'Firebase', logo: firebaseLogo },
-      // { name: 'PostgreSQL', logo: postgreLogo },
-    ],
-  },
-  {
     title: "Languages",
     skills: [
-      { name: "C", logo: cLogo },
-      { name: "C++", logo: cppLogo },
-      { name: "Java", logo: javaLogo },
-      { name: "Python", logo: pythonLogo },
-      // { name: 'C-Sharp', logo: csharpLogo },
-      { name: "JavaScript", logo: javascriptLogo },
-      // { name: 'TypeScript', logo: typescriptLogo },
+      { name: "C++" },
+      { name: "Java" },
+      { name: "JavaScript" },
     ],
   },
   {
-    title: "Tools",
+    title: "Frameworks",
     skills: [
-      { name: "Git", logo: gitLogo },
-      { name: "GitHub", logo: githubLogo },
-      { name: "VS Code", logo: vscodeLogo },
-      { name: "Postman", logo: postmanLogo },
-      { name: "Compass", logo: mcLogo },
-      { name: "Vercel", logo: vercelLogo },
-      { name: "Netlify", logo: netlifyLogo },
-      { name: "Figma", logo: figmaLogo },
+      { name: "Node.js" },
+      { name: "Express.js" },
+      { name: "Bootstrap" },
+      { name: "Tailwind CSS" },
+      { name: "Cypress" },
+    ],
+  },
+  {
+    title: "Libraries",
+    skills: [
+      { name: "React.js" },
+      { name: "Clerk.js" },
+      { name: "Email.js" },
+      { name: "Shadcn/ui" },
+    ],
+  },
+  {
+    title: "Developer Tools",
+    skills: [
+      { name: "Git" },
+      { name: "GitHub" },
+      { name: "Postman" },
+      { name: "VS Code" },
+    ],
+  },
+  {
+    title: "Databases & Deployment",
+    skills: [
+      { name: "MongoDB" },
+      { name: "MySQL" },
+      { name: "Vercel" },
+      { name: "Render" },
+    ],
+  },
+  {
+    title: "Soft Skills",
+    skills: [
+      { name: "Effective Communication" },
+      { name: "Team Collaboration" },
+      { name: "Flexibility" },
+      { name: "Adaptability" },
+      { name: "Leadership Qualities" },
     ],
   },
 ];
 
+
 export const experiences = [
   {
     id: 0,
-    img: bharatIntern, // Replace with your imported logo variable
-    role: "Fullstack MERN Developer Intern",
+    //img: gssoc, // import GSSoC logo or use placeholder
+    role: "Open Source Contributor",
+    company: "GirlScript Summer of Code 2025 (GSSoC’25)",
+    date: "2025 – Present",
+    desc: "Actively contributing to the open-source project TravelGrid under GSSoC’25. Successfully merged more than 5 pull requests, enhancing features, fixing bugs, and improving overall code quality. Earned the GitHub Pull Shark badge for consistent open-source contributions.",
+    skills: [
+      "Open Source Contribution",
+      "Git & GitHub",
+      "Pull Requests",
+      "Code Reviews",
+      "React",
+      "JavaScript",
+      "Collaboration",
+    ],
+    links: {
+      project: "https://travel-grid.vercel.app/",
+      prs: [
+        "https://github.com/Adarsh-Chaubey03/TravelGrid/pull/194",
+        "https://github.com/Adarsh-Chaubey03/TravelGrid/pull/490",
+        "https://github.com/Adarsh-Chaubey03/TravelGrid/pull/497",
+        "https://github.com/Adarsh-Chaubey03/TravelGrid/pull/510",
+        "https://github.com/Adarsh-Chaubey03/TravelGrid/pull/512",
+      ],
+    },
+  },
+  {
+    id: 1,
+    //img: codespace, // import CodeSpace Club logo or use placeholder
+    role: "Co-Director, Technical Team",
+    company: "CodeSpace Club, GLBITM",
+    date: "2024 – Present",
+    desc: "Spearheaded development of core website modules for the CodeSpace Club, contributing over 75% of the codebase across frontend UI and backend logic. Led implementation of key pages while coordinating with the technical team to ensure scalable and maintainable architecture.",
+    skills: [
+      "React.js",
+      "JavaScript",
+      "Frontend Development",
+      "Backend Logic",
+      "Git & GitHub",
+      "Team Leadership",
+      "Web Architecture",
+    ],
+    links: {
+      contactUs:
+        "https://github.com/mayankgaur0405/contactUspage_codeSpace.git",
+      aboutUs:
+        "https://github.com/mayankgaur0405/About_Us_Page_CodeSpace.git",
+    },
+  },
+  {
+    id: 2,
+    img: bharatIntern, // import Bharat Intern logo
+    role: "Full Stack MERN Developer Intern",
     company: "Bharat Intern",
     date: "September 2023",
-    desc: "Completed a hands-on internship as a Fullstack Developer, building end-to-end web applications using the MERN stack. Focused on creating responsive UIs with React.js and Tailwind CSS, developing backend APIs using Node.js and Express, and managing data with MongoDB. Delivered a fully functional project demonstrating CRUD operations, authentication, and seamless frontend-backend integration.",
+    desc: "Completed a hands-on internship as a Full Stack Developer, building end-to-end web applications using the MERN stack. Developed responsive user interfaces, RESTful backend APIs, authentication flows, and database-driven features with seamless frontend–backend integration.",
     skills: [
       "MongoDB",
       "Express.js",
@@ -119,7 +171,7 @@ export const experiences = [
       "Node.js",
       "Tailwind CSS",
       "JavaScript",
-      "REST API",
+      "REST APIs",
       "Git",
     ],
   },
@@ -158,6 +210,54 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Dev2Gether",
+    subtitle: "Real-Time Collaborative IDE with AI",
+    description:
+      "A real-time collaborative IDE supporting JavaScript, Python, C++, and Java. Enables multi-user live editing, execution, and AI-assisted coding with error detection and code suggestions.",
+    tags: [
+      "MERN",
+      "Socket.io",
+      "Monaco Editor",
+      "AI Assistant",
+      "Real-Time Collaboration",
+    ],
+    github: "https://github.com/mayankgaur0405/Dev2Gether.git",
+    webapp: "https://dev2gether-vaky.onrender.com",
+  },
+  {
+    id: 1,
+    title: "MG Virtual Line",
+    subtitle: "QR-Based Digital Token Queue System",
+    description:
+      "A digital queue management platform replacing physical lines using QR-based tokens and real-time updates. Includes admin controls, notifications, and multi-vendor support.",
+    tags: [
+      "MERN",
+      "Socket.io",
+      "QR Code",
+      "Real-Time Updates",
+      "Authentication",
+    ],
+    github: "https://github.com/mayankgaur0405/MG-Virtual-Line.git",
+    webapp: "https://mg-virtual-line.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "GL PeerBajaj",
+    subtitle: "Peer-to-Peer Resource & Referral Platform",
+    description:
+      "A platform connecting GL Bajaj students for mentorship, referrals, and collaboration. Features user profiles, learning roadmaps, interview experiences, and a community feed.",
+    tags: [
+      "MERN",
+      "Tailwind CSS",
+      "Mentorship",
+      "Community Platform",
+      "Student Network",
+    ],
+    github: "https://github.com/mayankgaur0405/GL-PeerBajaj.git",
+    webapp: "https://gl-peer-bajaj.vercel.app/",
+  },
+  {
+    id: 0,
     title: "Swasthya-Setu",
     description:
       "A MERN-based platform to bridge the rural-urban healthcare gap by enabling teleconsultations, e-prescriptions, and health record management for underserved communities.",
@@ -166,36 +266,5 @@ export const projects = [
     github: "https://github.com/mayankgaur0405/Swasthya-Setu",
     webapp: "https://Swasthya-Setu.vercel.app/",
   },
-  {
-    id: 1,
-    title: "Swasthya-Setu Pro",
-    description:
-      "A full-stack AI healthcare platform featuring a real-time medical voice agent. Built with Next.js, React, TypeScript, AssemblyAI, Clerk, and NeonDB to enable voice-based symptom analysis, secure authentication, and health record management — transforming rural and urban telemedicine.",
-    img: SwasthyaSetuProImg,
-    tags: ["Next.js", "React", "TypeScript", "AssemblyAI", "Clerk", "NeonDB"],
-    github: "https://github.com/mayankgaur0405/Swasthya-Setu-Pro",
-    webapp: "https://swasthya-setu-pro.vercel.app/",
-  },
-   {
-    id: 2,
-    title: "TalkTown",
-    description:
-      "A real-time chat application enabling seamless communication using WebSockets. Built with React, Node.js, Express, Socket.io, and Zustand — offering features like instant messaging, typing indicators, and room-based chats. Scalable and perfect for modern web conversations.",
-    img: TalkTownImg,
-    tags: ["React", "Node.js", "Express", "Socket.io", "Zustand"],
-    github: "https://github.com/mayankgaur0405/TalkTown",
-    webapp: "https://talktown-8lif.onrender.com/",
-  },
-  {
-    id: 3,
-    title: "IntervueX",
-    description:
-      "MERN-based website where users can take mock interviews with AI, get evaluated responses, and receive feedback and tips. Uses OpenAI API for question generation and scoring.",
-    img: IntervueX,
-    tags: ["React JS", "Node.js", "Express", "MongoDB", "OpenAI API"],
-    github: "https://github.com/mayankgaur0405/IntervueX",
-    webapp: "https://intervue-x.vercel.app/",
-  },
- 
 ];
 
